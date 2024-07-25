@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media
+
+# Ignore specific Django folders
+/static/
+/media/
+/local_settings.py
+.env
+
+# If using Django Compressor
+/compressed/
+
+# If using local SQLite database
+*.sqlite3
+
+# Caches
+*.bak
+*.swp
+*.swo
+*.swn
+*.tmp
+
+# Virtual environment
+venv/
+.env/
+
+# If using pipenv
+Pipfile.lock
+
+# If using virtualenvwrapper
+.env
+
+# pyenv
+.python-version
+
+# Test coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Other
+*.so
+*.dylib
+*.swp
+*.swo
+.DS_Store
+
+# VSCode specific files
+.vscode/
+
+# PyCharm specific files
+.idea/
+*.iml
